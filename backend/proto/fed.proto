@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package fed;
+
+option go_package = "./proto";
+
+// Placeholder messages for Federated Learning operations
+message GetGlobalModelRequest {}
+message GetGlobalModelResponse {}
+
+message UploadUpdateRequest {}
+message UploadUpdateResponse {}
+
+message RegisterClientRequest {}
+message RegisterClientResponse {}
+
+message StartRoundRequest {}
+message StartRoundResponse {}
+
+// Service definitions will be added here once logic is implemented
+service FederationService {
+  // rpc GetGlobalModel(GetGlobalModelRequest) returns (GetGlobalModelResponse);
+  // rpc UploadUpdate(UploadUpdateRequest) returns (UploadUpdateResponse);
+  // rpc RegisterClient(RegisterClientRequest) returns (RegisterClientResponse);
+  // rpc StartRound(StartRoundRequest) returns (StartRoundResponse);
+}
